@@ -9,7 +9,7 @@ def say_hello():
 @app.route('/name')
 # '/name' URL is bound with return_name() function.
 def return_name():
-    return 'My name is HARSHA'
+    return 'My name is shanthish'
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port="8080")
